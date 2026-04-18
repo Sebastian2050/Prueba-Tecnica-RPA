@@ -1,5 +1,5 @@
 """
-load.py — Fase LOAD del pipeline ETL.
+load.py — Fase LOAD
 
 Responsabilidades:
   - Crear la base de datos PostgreSQL si no existe (requiere conexión admin).
