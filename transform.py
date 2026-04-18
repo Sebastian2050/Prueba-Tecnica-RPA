@@ -1,5 +1,5 @@
 """
-transform.py 
+transform.py - Fase Transform
 
 Responsabilidades:
   - Limpiar y normalizar texto (strip, title-case).
