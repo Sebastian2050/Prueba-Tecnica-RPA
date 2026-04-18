@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════╗
-║         RPA — Distribución de Cartera por Producto  v5               ║
+║         RPA — Distribución de Cartera por Producto                   ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  Punto de entrada principal del pipeline ETL.                        ║
 ║                                                                      ║
