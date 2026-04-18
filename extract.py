@@ -1,5 +1,5 @@
 """
-extract.py — Fase EXTRACT del pipeline ETL.
+extract.py — Fase EXTRACT
 
 Responsabilidades:
   - Leer el archivo CSV de cartera desde disco.
