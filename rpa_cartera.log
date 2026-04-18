@@ -1,0 +1,45 @@
+2026-04-18 16:34:33,793 [INFO] ============================================================
+2026-04-18 16:34:33,794 [INFO] INICIO RPA — Cartera por Producto  v5
+2026-04-18 16:34:33,794 [INFO] ============================================================
+2026-04-18 16:34:33,794 [INFO] [LOAD] Verificando existencia de la base de datos 'cartera_db'...
+2026-04-18 16:34:34,170 [INFO] [LOAD] Base de datos 'cartera_db' creada correctamente
+2026-04-18 16:34:34,170 [INFO] [EXTRACT] Leyendo: Distribución_de_cartera_por_producto_20260415.csv
+2026-04-18 16:34:34,210 [INFO] Archivo: 34,691.8 KB  |  SHA-256: e8addc8e3dccad2a...
+2026-04-18 16:34:36,502 [INFO] [EXTRACT] Leído: 106,905 filas x 34 columnas
+2026-04-18 16:34:36,503 [INFO] [EXTRACT] Extracción completada sin errores
+2026-04-18 16:34:36,503 [INFO] [TRANSFORM] Iniciando transformaciones...
+2026-04-18 16:34:40,301 [INFO] [TRANSFORM] Columnas numéricas convertidas: 21
+2026-04-18 16:34:50,700 [INFO] [TRANSFORM] Sin colisiones reales detectadas en la fusión
+2026-04-18 16:34:50,853 [INFO] [TRANSFORM] Filas fusionadas (duplicados eliminados): 946
+2026-04-18 16:34:50,860 [INFO] [TRANSFORM] Filas eliminadas por claves nulas: 0
+2026-04-18 16:34:50,895 [WARNING] [TRANSFORM] Valores negativos corregidos a 0: 2
+2026-04-18 16:34:50,896 [INFO] [TRANSFORM] Transformación completada → 105,959 filas limpias
+2026-04-18 16:34:50,896 [INFO] [LOAD] Conectando a PostgreSQL: localhost:5432/cartera_db (usuario: postgres)
+2026-04-18 16:34:50,944 [INFO] [LOAD] Tabla 'cartera_por_producto' lista
+2026-04-18 16:34:51,484 [INFO] [LOAD] Lote 1: 5,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:52,016 [INFO] [LOAD] Lote 2: 10,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:52,559 [INFO] [LOAD] Lote 3: 15,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:53,094 [INFO] [LOAD] Lote 4: 20,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:53,641 [INFO] [LOAD] Lote 5: 25,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:54,169 [INFO] [LOAD] Lote 6: 30,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:54,712 [INFO] [LOAD] Lote 7: 35,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:55,241 [INFO] [LOAD] Lote 8: 40,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:55,772 [INFO] [LOAD] Lote 9: 45,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:56,296 [INFO] [LOAD] Lote 10: 50,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:56,811 [INFO] [LOAD] Lote 11: 55,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:57,341 [INFO] [LOAD] Lote 12: 60,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:57,872 [INFO] [LOAD] Lote 13: 65,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:58,393 [INFO] [LOAD] Lote 14: 70,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:58,903 [INFO] [LOAD] Lote 15: 75,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:59,419 [INFO] [LOAD] Lote 16: 80,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:34:59,925 [INFO] [LOAD] Lote 17: 85,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:00,449 [INFO] [LOAD] Lote 18: 90,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:00,963 [INFO] [LOAD] Lote 19: 95,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:01,470 [INFO] [LOAD] Lote 20: 100,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:01,992 [INFO] [LOAD] Lote 21: 105,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:02,090 [INFO] [LOAD] Lote 22: 105,959/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-18 16:35:02,094 [INFO] [LOAD] Inserción completada  |  Nuevas: 0  |  Actualizadas: 0
+2026-04-18 16:35:02,095 [INFO] Conexión cerrada
+2026-04-18 16:35:02,096 [INFO] ============================================================
+2026-04-18 16:35:02,096 [INFO] RPA finalizado exitosamente
+2026-04-18 16:35:02,096 [INFO] ============================================================
