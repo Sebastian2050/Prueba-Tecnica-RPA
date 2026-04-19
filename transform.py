@@ -1,5 +1,5 @@
 """
-transform.py — Fase TRANSFORM del pipeline ETL.
+transform.py — Fase TRANSFORM
  
 Responsabilidades:
   - Limpiar y normalizar texto (strip, title-case).

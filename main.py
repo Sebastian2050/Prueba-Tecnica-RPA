@@ -2,7 +2,7 @@
 ╔══════════════════════════════════════════════════════════════════════╗
 ║         RPA — Distribución de Cartera por Producto                   ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  Punto de entrada principal del pipeline ETL.                        ║
+║                                                                      ║
 ║                                                                      ║
 ║  Estructura del proyecto:                                            ║
 ║    main.py        ← este archivo: orquesta Extract → Transform → Load║
