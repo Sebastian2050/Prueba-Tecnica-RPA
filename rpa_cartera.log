@@ -43,3 +43,51 @@
 2026-04-18 16:35:02,096 [INFO] ============================================================
 2026-04-18 16:35:02,096 [INFO] RPA finalizado exitosamente
 2026-04-18 16:35:02,096 [INFO] ============================================================
+2026-04-19 18:12:05,165 [INFO] ============================================================
+2026-04-19 18:12:05,165 [INFO] INICIO RPA — Cartera por Producto  v5
+2026-04-19 18:12:05,166 [INFO] ============================================================
+2026-04-19 18:12:05,166 [INFO] [LOAD] Verificando existencia de la base de datos 'cartera_db'...
+2026-04-19 18:12:05,243 [INFO] [LOAD] Base de datos 'cartera_db' ya existe, continuando...
+2026-04-19 18:12:05,244 [INFO] [EXTRACT] Leyendo: Distribución_de_cartera_por_producto_20260415.csv
+2026-04-19 18:12:05,365 [INFO] Archivo: 34,691.8 KB  |  SHA-256: e8addc8e3dccad2a...
+2026-04-19 18:12:07,471 [INFO] [EXTRACT] Leído: 106,905 filas x 34 columnas
+2026-04-19 18:12:07,473 [INFO] [EXTRACT] Extracción completada sin errores
+2026-04-19 18:12:07,474 [INFO] [TRANSFORM] Iniciando transformaciones...
+2026-04-19 18:12:11,301 [INFO] [TRANSFORM] Columnas numéricas convertidas: 21
+2026-04-19 18:12:21,844 [INFO] [TRANSFORM] Sin colisiones reales detectadas en la fusión
+2026-04-19 18:12:22,008 [INFO] [TRANSFORM] Filas fusionadas (duplicados eliminados): 946
+2026-04-19 18:12:22,014 [INFO] [TRANSFORM] Filas eliminadas por claves nulas: 0
+2026-04-19 18:12:22,053 [WARNING] [TRANSFORM] Valores negativos corregidos a 0: 2
+2026-04-19 18:12:22,074 [INFO] [TRANSFORM] fecha_corte convertida a Python date nativo (→ DATE en PostgreSQL)
+2026-04-19 18:12:22,074 [INFO] [TRANSFORM] Transformación completada → 105,959 filas limpias
+2026-04-19 18:12:22,075 [INFO] [LOAD] Conectando a PostgreSQL: localhost:5432/cartera_db (usuario: postgres)
+2026-04-19 18:12:22,215 [INFO] [LOAD] Tabla 'cartera_por_producto' lista
+2026-04-19 18:12:22,250 [INFO] [LOAD] Migrando fecha_corte de 'text' → DATE...
+2026-04-19 18:12:23,255 [INFO] [LOAD] Migración de fecha_corte completada: TEXT → DATE
+2026-04-19 18:12:23,870 [INFO] [LOAD] Lote 1: 5,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:24,437 [INFO] [LOAD] Lote 2: 10,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:25,022 [INFO] [LOAD] Lote 3: 15,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:25,594 [INFO] [LOAD] Lote 4: 20,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:26,170 [INFO] [LOAD] Lote 5: 25,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:26,758 [INFO] [LOAD] Lote 6: 30,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:27,365 [INFO] [LOAD] Lote 7: 35,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:27,958 [INFO] [LOAD] Lote 8: 40,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:28,547 [INFO] [LOAD] Lote 9: 45,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:29,130 [INFO] [LOAD] Lote 10: 50,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:29,688 [INFO] [LOAD] Lote 11: 55,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:30,240 [INFO] [LOAD] Lote 12: 60,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:30,819 [INFO] [LOAD] Lote 13: 65,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:31,380 [INFO] [LOAD] Lote 14: 70,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:31,957 [INFO] [LOAD] Lote 15: 75,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:32,533 [INFO] [LOAD] Lote 16: 80,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:33,139 [INFO] [LOAD] Lote 17: 85,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:33,732 [INFO] [LOAD] Lote 18: 90,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:34,337 [INFO] [LOAD] Lote 19: 95,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:34,932 [INFO] [LOAD] Lote 20: 100,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:35,491 [INFO] [LOAD] Lote 21: 105,000/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:35,604 [INFO] [LOAD] Lote 22: 105,959/105,959 filas — +0 nuevas / ~0 actualizadas
+2026-04-19 18:12:35,605 [INFO] [LOAD] Inserción completada  |  Nuevas: 0  |  Actualizadas: 0
+2026-04-19 18:12:35,606 [INFO] Conexión cerrada
+2026-04-19 18:12:35,606 [INFO] ============================================================
+2026-04-19 18:12:35,606 [INFO] RPA finalizado exitosamente
+2026-04-19 18:12:35,607 [INFO] ============================================================
