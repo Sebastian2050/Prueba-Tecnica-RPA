@@ -33,8 +33,6 @@ log = logging.getLogger(__name__)
 
 def main() -> None:
     """
-    Orquesta el pipeline ETL completo en cuatro pasos:
-
         1. Crear BD   — garantiza que la base de datos exista antes de operar.
         2. Extract    — lee y valida el CSV de cartera.
         3. Transform  — limpia, normaliza y fusiona el DataFrame.

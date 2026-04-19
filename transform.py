@@ -101,10 +101,6 @@ def _detectar_colisiones(df: pd.DataFrame, cols_num: list[str]) -> None:
 def transformar(df: pd.DataFrame) -> pd.DataFrame:
     """
     Aplica todas las transformaciones de limpieza al DataFrame extraído.
- 
-    FIX v2: fecha_corte se convierte a datetime64 ANTES del groupby y se
-    fuerza a Python date nativo antes del INSERT para que PostgreSQL la
-    reciba como DATE y no como TEXT.
     """
     log.info("[TRANSFORM] Iniciando transformaciones...")
  
