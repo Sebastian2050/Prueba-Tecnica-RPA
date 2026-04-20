@@ -43,7 +43,7 @@ def main() -> None:
     y puede ser relanzado por el scheduler del RPA.
     """
     log.info("=" * 60)
-    log.info("INICIO RPA — Cartera por Producto  v5")
+    log.info("INICIO RPA — Cartera por Producto")
     log.info("=" * 60)
 
     # ── Paso 1: Crear base de datos si no existe ──────────────────
