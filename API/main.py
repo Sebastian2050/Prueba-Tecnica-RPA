@@ -1,5 +1,5 @@
 """
-main.py — Punto de entrada de la API de Cartera v1.
+main.py — Punto de entrada de la API de Cartera
 """
 import logging
 from contextlib import asynccontextmanager
